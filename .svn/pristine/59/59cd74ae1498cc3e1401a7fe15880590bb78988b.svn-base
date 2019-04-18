@@ -1,0 +1,190 @@
+/**
+ * 背景颜色统一浅灰
+ */
+body {
+	background-color: #f5f5f5;
+}
+
+/*组件色彩*/
+/*===================================================================================================================================*/
+/*组件颜色*/
+/*各种色彩按钮*/
+.btn,
+.btn:hover,
+.btn-focus {
+  color: #333;
+  background-color: #fff;
+  outline: 0;
+  border: 1px solid transparent;
+}
+
+
+.btn:active {
+  color: #333;
+  background-color: #f5f5f5;
+  border: 1px solid transparent;
+}
+.btn-blue,
+.btn-blue:hover,
+.btn-blue:focus {
+  color: #fff;
+  background-color: #2e99e2;
+  border-color: #357ebd;
+}
+
+.btn-blue:active,
+.btn-blue.active,
+.open .dropdown-toggle.btn-blue {
+  color: #fff;
+  background-color: #3276b1;
+  border-color: #285e8e;
+}
+.btn-green {
+  color: #fff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+.btn-green:hover,
+.btn-green:focus,
+.btn-green:active,
+.btn-green.active,
+.open .dropdown-toggle.btn-green {
+  color: #fff;
+  background-color: #47a447;
+  border-color: #398439;
+}
+.btn-red,
+.btn-red:hover,
+.btn-red:focus {
+  color: #fff;
+  background-color: #d2002f;
+  border-color: #d43f3a;
+}
+
+.btn-red:active,
+.btn-red.active,
+.open .dropdown-toggle.btn-red {
+  color: #fff;
+  background-color: #d2322d;
+  border-color: #ac2925;
+}
+.btn-info {
+  color: #fff;
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+.btn-info:hover,
+.btn-info:focus,
+.btn-info:active,
+.btn-info.active,
+.open .dropdown-toggle.btn-info {
+  color: #fff;
+  background-color: #39b3d7;
+  border-color: #269abc;
+}
+.btn-green {
+  color: #fff;
+  background-color: #3dc031;
+  border-color: #2dab22;
+}
+.btn-green:hover,
+.btn-green:focus,
+.btn-green:active,
+.btn-green.active,
+.open .dropdown-toggle.btn-green {
+  color: #fff;
+  background-color: #2dab22;
+  border-color: #2dab22;
+}
+.btn-orange,
+.btn-orange:hover,
+.btn-orange:focus{
+  background-color: #f28b01;
+  color:#fff;
+  border-color:rgba(224,113,5,.5);
+  outline: 0;
+}
+.btn-orange:active{
+  background-color: #de7f01;
+}
+.btn.disabled,
+.btn[disabled] {
+  background-color: #acabab;
+  border-color:#acabab;
+}
+/**
+ *  各种颜色
+ */
+ .white {
+  color: #fff;
+}
+.white-bg {
+  background-color: #fff;
+}
+.f5 {
+  color: #f5f5f5;
+}
+.f5-bg {
+  background-color: #f5f5f5;
+}
+.dc {
+  color: #dcdcdc;
+}
+.dc-bg {
+  background-color: #dcdcdc;
+}
+.c0 {
+  color: #c0c0c0;
+}
+.c0-bg {
+  background-color: #c0c0c0;
+}
+.a9 {
+  color: #a9a9a9;
+}
+.a9-bg {
+  background-color: #a9a9a9;
+}
+.gray {
+	color: #808080;
+}
+.gray-bg {
+    background-color: #808080;
+}
+.69 {
+	color: #696969;
+}
+.69-bg {
+    background-color: #696969;
+}
+.dark{
+  color:#444!important;
+}
+.dark-bg{
+  background-color:#444;
+}
+.black {
+	color: #000000
+}
+.black_bg {
+    background-color: #000000
+}
+
+.red {
+  color: #d2002f;
+}
+.red-bg {
+  background-color: #d2002f;
+}
+.orange_1 {
+    color: #f28b01;
+}
+.orange_1-bg {
+    background-color: #f28b01;
+}
+.orange_2{
+  color:#e67500;
+}
+.orange_2-bg{
+  background-color:#e67500;
+}

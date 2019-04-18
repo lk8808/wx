@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>电子银行产品推荐</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+        <script src="/js/comm.js"></script>
+	</head>
+	<body>
+	    <div class="weui-flex dark-bg" style="padding:10px;vertical-align: middle;">
+          <div>
+              <i class="icon fa fa-angle-left fa-2x white" onclick="javascript:history.go(-1)"></i>
+          </div>
+          <div class="weui-flex__item" align="center" >
+              <i class="fa fa-lg white">电子银行产品推荐</i>
+          </div>
+          <div>
+          </div>
+        </div> 
+        <div class="weui-cells__title">客户信息</div>
+        <div class="weui-cells weui-cells_form" >
+            <div class="weui-cell">
+                <div class="weui-cell__hd">
+                  <label class="weui-label">客户姓名：</label>
+                </div>
+                <div class="weui-cell__bd">
+                  <input class="weui-input" >
+                </div>
+            </div>
+            <div class="weui-cell">
+                <div class="weui-cell__hd">
+                  <label class="weui-label">身份证号：</label>
+                </div>
+                <div class="weui-cell__bd">
+                  <input class="weui-input" >
+                </div>
+            </div>
+            <div class="weui-cell">
+                <div class="weui-cell__hd">
+                  <label class="weui-label">联系电话：</label>
+                </div>
+                <div class="weui-cell__bd">
+                  <input class="weui-input" >
+                </div>
+            </div>
+            <div class="weui-cell">
+                <div class="weui-cell__hd" >
+                  <label class="weui-label" >联系地址：</label>
+                </div>
+                <div class="weui-cell__bd">
+                  <textarea class="weui-textarea" rows="3"></textarea>
+                </div>
+            </div>
+        </div>
+        <div class="weui-cells__title">电子银行产品信息</div>
+        <div class="weui-cells weui-cells_form" >
+            <div class="weui-cell">
+                <div class="weui-cell__hd">
+                  <label class="weui-label">业务种类：</label>
+                </div>
+                <div class="weui-cell__bd">
+                  <input class="weui-input" value="电子银行产品" readonly="readonly" >
+                </div>
+            </div>
+            <div class="weui-cell">
+                <div class="weui-cell__hd">
+                  <label class="weui-label">产品类型：</label>
+                </div>
+                <div class="weui-cell__bd">
+                  <input class="weui-input" type="text" id='ebanktype'/>
+                </div>
+            </div>
+            <div class="weui-cell">
+                <div class="weui-cell__hd" >
+                  <label class="weui-label" >备注：</label>
+                </div>
+                <div class="weui-cell__bd">
+                  <textarea class="weui-textarea" rows="3"></textarea>
+                </div>
+            </div>
+        </div>
+        <div class="weui-btn-area">
+          <a class="weui-btn btn-orange" href="javascript:save();" >提交</a>
+        </div>
+	</body>
+	<script type="text/javascript">
+	    $("#ebanktype").select({
+		  title: "请选择电子银行产品类型",
+		  items: [
+		    {
+		      title: '手机银行',
+		      value: '01'
+		    },
+		    {
+              title: '个人网银',
+              value: '02'
+            },
+            {
+              title: '银行卡开户',
+              value: '03'
+            },
+            {
+              title: '微信支付宝绑卡',
+              value: '04'
+            },
+            {
+              title: '聚合支付',
+              value: '05'
+            },
+            {
+              title: '社保卡激活',
+              value: '06'
+            },
+            {
+              title: '基本账户开立',
+              value: '07'
+            },
+            {
+              title: '一般账户开立',
+              value: '08'
+            }
+		  ]
+		});
+	</script>
+</html>

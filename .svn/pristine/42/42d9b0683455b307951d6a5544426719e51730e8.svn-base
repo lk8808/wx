@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>搜索</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+		<script src="/js/comm.js"></script>
+		<script src="/js/main.js"></script>
+		<link rel="stylesheet" type="text/css" href="/css/main.css"/>
+	</head>
+	<body>
+	   <header>
+	       <div class="weui-search-bar weui-search-bar_focusing" id="searchBar">
+               <form class="weui-search-bar__form">
+               <div class="weui-search-bar__box">
+                   <i class="weui-icon-search"></i>
+                   <input type="search" class="weui-search-bar__input" id="searchInput" placeholder="请输入关键词" >
+                   <a href="javascript:" class="weui-icon-clear" id="searchClear"></a>
+               </div>
+               <label class="weui-search-bar__label" id="searchText">
+                  <i class="weui-icon-search"></i>
+                  <span>请输入关键词</span>
+               </label>
+               </form>
+               <a href="javascript:WapBackUrl('/view/main.html')" class="weui-search-bar__cancel-btn" id="searchCancel">取消</a>
+           </div>
+	   </header>
+	</body>
+</html>

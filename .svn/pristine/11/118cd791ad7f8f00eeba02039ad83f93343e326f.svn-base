@@ -1,0 +1,16 @@
+
+
+function getSession() {
+	var data;
+	$.ajax({
+        url: "/cust/getSession",
+        async: false,
+        type: "POST",
+        success: function(retData) {
+        	data =  retData;
+        },
+        error: function (xhr, rtmsg, e) { 
+        }
+    });
+	return data;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>主页</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+		<script src="/js/comm.js"></script>
+		<script src="/js/main.js"></script>
+		<script src="/lib/jquery-weui/js/swiper.js"></script>
+		<link rel="stylesheet" type="text/css" href="/css/main.css"/>
+	</head>
+	<body>
+	    <!-- 搜索栏 -->
+	    <div class="main-search">
+            <lable class="search-inner" onclick="location.href ='/view/search.html'">
+               <input type="search" readonly="readonly" />
+               <a class="search-icon fa fa-search"></a>
+            </lable>
+        </div>
+	    
+	    <!-- 图片轮播 -->
+		<div class="banner swiper-container swiper-container-horizontal" >
+		  <div class="swiper-wrapper">
+		    <div class="swiper-slide  banner-item">
+		      <img src="/img/11.jpg" alt="">
+		     </div>
+		    <div class="swiper-slide  banner-item">
+		      <img src="/img/22.jpg" alt="">
+		     </div>
+		    <div class="swiper-slide  banner-item">
+		      <img src="/img/33.jpg" alt="">
+		    </div>
+		  </div>
+		</div>
+		<!-- 导航菜单 -->
+		<div class="weui-grids">
+		  <a href="javascript:goPageOnlogin('/view/gift/giftclass.html');" class="weui-grid js_grid">
+		    <div class="weui-grid__icon">
+		      <img src="/icons/fb79f6/zhuye.png" alt="">
+		    </div>
+		    <p class="weui-grid__label">
+		        礼品分类
+		    </p>
+		  </a>
+		  <a href="javascript:goPageOnlogin('/view/bussiness/bussiness.html');" class="weui-grid js_grid">
+		    <div class="weui-grid__icon">
+		      <img src="/icons/6dd5fc/fuwu.png" alt="">
+		    </div>
+		    <p class="weui-grid__label">
+		        业务推荐
+		    </p>
+		  </a>
+		  <a href="javascript:goPageOnlogin('/view/cust/cust.html');" class="weui-grid js_grid">
+            <div class="weui-grid__icon">
+              <img src='/icons/fb586d/wode.png' alt="">
+            </div>
+            <p class="weui-grid__label">
+                        个人中心
+            </p>
+          </a>
+		</div>
+	</body>
+	<script type="text/javascript">
+		$(function () {
+	        //轮播
+	        var mySwiper = new Swiper('.swiper-container', {
+	            autoplay: 3000,
+	            loop: true
+	        });
+	    });
+	    
+	</script>
+</html>
